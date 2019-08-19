@@ -1,0 +1,10 @@
+cmake -DCMAKE_TOOLCHAIN_FILE=/Users/subowen/WorkDir/SDKDir/NDKDir/android-ndk-r16b/build/cmake/android.toolchain.cmake \
+-DANDROID_NDK=/Users/subowen/WorkDir/SDKDir/NDKDir/android-ndk-r16b \
+-DCMAKE_BUILD_TYPE=Release \
+-DANDROID_ABI=armeabi-v7a \
+-DANDROID_TOOLCHAIN="clang" \
+-DANDROID_STL=c++_shared \
+-DANDROID_NATIVE_API_LEVEL=android-21 \
+-DEIGEN_INCLUDE_DIR="/usr/local/Cellar/eigen/3.3.7/include/eigen3" \
+-DBUILD_SHARED_LIBS=ON \
+-DMINIGLOG=ON ..
